@@ -59,7 +59,7 @@ By building this application, you will use React.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- not available yet
+- not available yet (but comming soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
