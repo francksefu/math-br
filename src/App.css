@@ -51,3 +51,9 @@ div.ligne > button.deux {
 .aucun {
   color: black;
 }
+
+.myStyle {
+  margin-top: '3%';
+  text-align: 'center';
+  padding: '10px';
+}
