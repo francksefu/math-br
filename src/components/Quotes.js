@@ -29,7 +29,7 @@ function Quotes() {
   return (
     <div>
       { data.length ? (
-        <div className="quotation">
+        <div className="quotation quotes">
           <h2>Quotes</h2>
           <p>
             {data[0].quote}

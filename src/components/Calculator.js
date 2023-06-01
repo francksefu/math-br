@@ -2,7 +2,6 @@ import '../App.css';
 import { PropTypes } from 'prop-types';
 import { useState } from 'react';
 import calculate from '../logic/calculate';
-import Quotes from './Quotes';
 
 function Calculator() {
   const [result, setResult] = useState({});
@@ -11,9 +10,6 @@ function Calculator() {
   };
   return (
     <>
-      <div>
-        <Quotes />
-      </div>
       <section>
         <h2>Calculator</h2>
         <p className="myStyle">Let&apos; do some math : </p>
