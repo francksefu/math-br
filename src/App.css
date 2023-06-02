@@ -4,11 +4,17 @@
 }
 
 section {
-  margin-top: 15%;
+  margin-top: 5%;
   margin-left: 30%;
   margin-right: 30%;
   height: 312px;
   width: 40%;
+}
+
+.quotes {
+  margin-top: calc(10% + 100px);
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 div.ligne {
