@@ -4,17 +4,11 @@
 }
 
 section {
-  margin-top: 5%;
+  margin-top: 15%;
   margin-left: 30%;
   margin-right: 30%;
   height: 312px;
   width: 40%;
-}
-
-.quotes {
-  margin-top: calc(10% + 100px);
-  margin-left: 5%;
-  margin-bottom: 5%;
 }
 
 div.ligne {
@@ -58,8 +52,55 @@ div.ligne > button.deux {
   color: black;
 }
 
-.myStyle {
-  margin-top: 3%;
-  text-align: center;
+.quotation {
+  width: 90%;
+  border: 1px solid yellowgreen;
   padding: 10px;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.quotation > p {
+  width: 90%;
+  text-align: center;
+  margin: 5px 5%;
+}
+
+h2,
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+small {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 20px;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  list-style-type: none;
+}
+
+.home {
+  width: 90%;
+  margin: 5% 5%;
+  padding: 5%;
+  border: 1px solid greenyellow;
+}
+
+.home > p {
+  margin: 20px;
+}
+
+section > h2,
+.home > h2,
+.quotation > h2 {
+  font-weight: 200;
 }

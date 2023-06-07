@@ -8,11 +8,16 @@ function Calculator() {
   const handleClick = (e) => {
     setResult(calculate(result, e.target.textContent));
   };
+  const myStyle = {
+    marginTop: '3%',
+    textAlign: 'center',
+    padding: '10px',
+  };
   return (
     <>
       <section>
         <h2>Calculator</h2>
-        <p className="myStyle">Let&apos; do some math : </p>
+        <p style={myStyle}>Let&apos; do some math : </p>
         <div className="tableau">{result.next === null ? result.total : result.next}</div>
         <div className="ligne">
           <Span classons="aucun" valeur="AC" cliquons={handleClick} />
